@@ -138,9 +138,9 @@ span{
 .hero-section
 {
     background-image:url("image/p1.jpg");
-    height: 600px;
     background-size: cover;
     height: 350px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -258,4 +258,47 @@ ul a{
 .copyright
 {
     padding: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .nav-address{
+        display: none;
+    }
+    .nav-search{
+    width: 50px;
+    height: 40px;
+    }
+    .nav-return
+    {
+        display:none;
+    }
+    .panel-ops
+    {
+    display: none;
+    }
+    .hero-msg
+    {
+        display: none;
+    }
+    .hero-section
+{
+    background-image:url("image/p2.png");
+    height: 300px;
+    width: 100%;
+}
+.shop-section
+{
+    display: block;
+    background-color: white;
+}
+.box
+{
+    height: 400px;
+    width: 100%;
+    background-color: white ;
+    margin-top: 15px;
+    padding-top: 10px;
+    border: 2px solid black;
+}
+
 }
